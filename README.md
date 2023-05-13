@@ -1,38 +1,106 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TodoSync
+
+TodoSync is a real-time todo application built with Next.js, Tailwind CSS, and Firebase. It provides a simple and intuitive interface for managing your daily tasks, keeping them in sync across multiple devices in real-time.
+
+You can try TodoSync [here](https://todo-sync-phi.vercel.app/).
+
+## Features
+
+- **Real-time Synchronization:** Changes made to your todo list on one device are instantly reflected on all other devices, ensuring you always have an up-to-date view of your tasks.
+- **User Authentication:** Securely create an account and log in to access your personal todo lists. Each user has a private space to manage their tasks.
+- **Create and Manage Todo Lists:** Easily create multiple todo lists to categorize your tasks. Add, update, and delete tasks within each list, and mark them as complete when you've finished.
+- **Modern and User-Friendly Design:** TodoSync features a sleek and intuitive design, providing a seamless user experience and making task management a breeze.
 
 ## Getting Started
 
-First, run the development server:
+These instructions will guide you on how to set up a local development environment and deploy TodoSync to a production environment.
+
+### Prerequisites
+
+- Node.js (version 12 or above)
+- npm (Node Package Manager) or Yarn
+- Firebase account (with Firestore database and Authentication enabled)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/todosync.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd todosync
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+4. Configure Firebase:
+
+   - Create a new project in the Firebase console.
+   - Enable Firestore database and Authentication services.
+   - Obtain your Firebase project configuration details.
+5. Set up Firebase configuration:
+
+   - Open the file `firebase.js` located in the `src` directory.
+   - Replace the configuration values with your Firebase project configuration details.
+6. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+7. Open your browser and visit `http://localhost:3000` to access TodoSync.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To deploy TodoSync to a production environment, follow these steps:
 
-## Learn More
+1. Build the application:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+or
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+yarn build
+```
 
-## Deploy on Vercel
+2. Deploy to your hosting platform of choice:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Next.js provides various deployment options. You can choose platforms like Vercel, Netlify, or Firebase Hosting for a seamless deployment experience.
+3. Access your deployed application using the provided URL.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies Used
+
+- Next.js - React framework for server-side rendering and building web applications.
+- Tailwind CSS - Utility-first CSS framework for rapid UI development.
+- Firebase - Backend-as-a-Service platform for real-time database and user authentication.
+
+## Contributing
+
+Contributions to TodoSync are welcome! If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

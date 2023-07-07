@@ -1,19 +1,19 @@
-# TodoSync
+# ZenTask
 
-TodoSync is a real-time todo application built with Next.js, Tailwind CSS, and Firebase. It provides a simple and intuitive interface for managing your daily tasks, keeping them in sync across multiple devices in real-time.
+ZenTask is a real-time todo application built with Next.js, Tailwind CSS, and Firebase. It provides a simple and intuitive interface for managing your daily tasks, keeping them in sync across multiple devices in real-time.
 
-You can try TodoSync [here](https://todo-sync-phi.vercel.app/).
+You can try ZenTask [here](https://todo-sync-phi.vercel.app/).
 
 ## Features
 
 - **Real-time Synchronization:** Changes made to your todo list on one device are instantly reflected on all other devices, ensuring you always have an up-to-date view of your tasks.
 - **User Authentication:** Securely create an account and log in to access your personal todo lists. Each user has a private space to manage their tasks.
 - **Create and Manage Todo Lists:** Easily create multiple todo lists to categorize your tasks. Add, update, and delete tasks within each list, and mark them as complete when you've finished.
-- **Modern and User-Friendly Design:** TodoSync features a sleek and intuitive design, providing a seamless user experience and making task management a breeze.
+- **Modern and User-Friendly Design:** ZenTask features a sleek and intuitive design, providing a seamless user experience and making task management a breeze.
 
 ## Getting Started
 
-These instructions will guide you on how to set up a local development environment and deploy TodoSync to a production environment.
+These instructions will guide you on how to set up a local development environment and deploy ZenTask to a production environment.
 
 ### Prerequisites
 
@@ -68,11 +68,11 @@ or
 yarn dev
 ```
 
-7. Open your browser and visit `http://localhost:3000` to access TodoSync.
+7. Open your browser and visit `http://localhost:3000` to access ZenTask.
 
 ### Deployment
 
-To deploy TodoSync to a production environment, follow these steps:
+To deploy ZenTask to a production environment, follow these steps:
 
 1. Build the application:
 
@@ -99,7 +99,7 @@ yarn build
 
 ## Contributing
 
-Contributions to TodoSync are welcome! If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request.
+Contributions to ZenTask are welcome! If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request.
 
 ## License
 

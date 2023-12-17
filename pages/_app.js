@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     return (
         <>
             <Head>
-                <title>JS Dev - Todo App</title>
+                <title>ZenTask</title>
             </Head>
             <AuthUserProvider>
                 <Component {...pageProps} />

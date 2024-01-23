@@ -1,11 +1,11 @@
 import Loader from "@/components/Loader";
 import { useAuth } from "@/firebase/auth";
 import { GoogleAuthProvider, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { auth } from "../firebase/firebase";
-import Link from "next/link";
 
 const provider = new GoogleAuthProvider();
 

@@ -1,20 +1,20 @@
 import Loader from "@/components/Loader";
 import { useAuth } from "@/firebase/auth";
+import {
+    addDoc,
+    collection,
+    deleteDoc,
+    doc,
+    getDocs,
+    query,
+    updateDoc,
+    where,
+} from "firebase/firestore";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { GoSignOut } from "react-icons/go";
 import { MdDeleteForever } from "react-icons/md";
-import {
-    collection,
-    addDoc,
-    getDocs,
-    where,
-    query,
-    deleteDoc,
-    updateDoc,
-    doc,
-} from "firebase/firestore";
 import { db } from "../firebase/firebase";
 
 const arr = [
@@ -106,12 +106,12 @@ export default function Home() {
                     <div className="flex justify-center flex-col items-center">
                         <span className="text-7xl mb-10">📝</span>
                         <h1 className="text-5xl md:text-7xl font-bold">
-                            ToooDooo's
+                            ZenTask
                         </h1>
                     </div>
                     <div className="flex items-center gap-2 mt-10">
                         <input
-                            placeholder={`👋 Hello ${authUser.username}, What to do Today?`}
+                            placeholder={`👋 Hello ${authUser.username}, What will you do today?`}
                             type="text"
                             className="font-semibold placeholder:text-gray-500 border-[2px] border-black h-[60px] grow shadow-sm rounded-md px-4 focus-visible:outline-yellow-400 text-lg transition-all duration-300"
                             autoFocus onChange={(e) => setTodoInput(e.target.value)} value={todoInput || ""}

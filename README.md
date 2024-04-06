@@ -2,8 +2,6 @@
 
 ZenTask is a real-time todo application built with Next.js, Tailwind CSS, and Firebase. It provides a simple and intuitive interface for managing your daily tasks, keeping them in sync across multiple devices in real-time.
 
-You can try ZenTask [here]([https://todo-sync-phi.vercel.app/](https://zentask-six.vercel.app/)).
-
 ## Features
 
 - **Real-time Synchronization:** Changes made to your todo list on one device are instantly reflected on all other devices, ensuring you always have an up-to-date view of your tasks.

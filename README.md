@@ -26,13 +26,13 @@ These instructions will guide you on how to set up a local development environme
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/itsamit108/todo-sync.git
+git clone https://github.com/itsamit108/zentask.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd todo-sync
+cd zentask
 ```
 
 3. Install the dependencies:
